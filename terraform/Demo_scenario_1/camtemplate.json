@@ -1,0 +1,14 @@
+{
+   "name": "Demo_scenario_1",
+   "description": "Description for Demo_scenario_1.",
+   "type": "userCreated",
+   "manifest": {
+     "template_type": "Terraform",
+     "template_format": "HCL",
+     "template_provider": "Other"
+   },
+   "metadata": {
+     "displayName": "Demo_scenario_1",
+     "bullets": []
+   }
+ }

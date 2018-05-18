@@ -1,6 +1,6 @@
-## test-cam-project infrastructure
+## Demo_scenario_1 infrastructure
 
-Created 3/10/18 by ucdpadmin. for test-cam-project
+Created 5/18/18 by ucdpadmin. for Demo_scenario_1
 
 
 ## Design Decisions
