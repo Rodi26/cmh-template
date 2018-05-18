@@ -74,3 +74,8 @@ variable "_private_vlan_id" {
   description = "Generated"
 }
 
+variable "group_name_private_id" {
+  type = "string"
+  description = "Generated"
+}
+

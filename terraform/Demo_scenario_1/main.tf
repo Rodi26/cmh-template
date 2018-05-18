@@ -27,6 +27,7 @@ resource "ibm_compute_vm_instance" "server-web" {
   ssh_key_ids = ["${ibm_compute_ssh_key.ibm_cloud_temp_public_key.id}"]
   os_reference_code = "${var.server-web_os_reference_code}"
   private_vlan_id       = "${var.ibm_network_private_vlan_id}"
+  private_security_group_ids = ["${var.group_name_private_id}"]
 }
 
 resource "ibm_compute_vm_instance" "server-db" {
