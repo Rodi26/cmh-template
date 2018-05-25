@@ -21,9 +21,9 @@ provider "ibm" {
 resource "ibm_compute_vm_instance" "server-web" {
   cores       = 1
   memory      = 1024
-  domain      = "${var.server-web_domain}"
+  domain      = "${var.server-domain}"
   hostname    = "${var.server-web_hostname}"
-  datacenter  = "${var.server-web_datacenter}"
+  datacenter  = "${var.server-datacenter}"
   ssh_key_ids = ["${ibm_compute_ssh_key.ibm_cloud_temp_public_key.id}"]
   os_reference_code = "${var.server-web_os_reference_code}"
   private_vlan_id       = "${var.ibm_network_private_vlan_id}"
@@ -33,9 +33,9 @@ resource "ibm_compute_vm_instance" "server-web" {
 resource "ibm_compute_vm_instance" "server-db" {
   cores       = 1
   memory      = 1024
-  domain      = "${var.server-db_domain}"
+  domain      = "${var.server-domain}"
   hostname    = "${var.server-db_hostname}"
-  datacenter  = "${var.server-db_datacenter}"
+  datacenter  = "${var.server-datacenter}"
   ssh_key_ids = ["${ibm_compute_ssh_key.ibm_cloud_temp_public_key.id}"]
   os_reference_code = "${var.server-db_os_reference_code}"
   public_vlan_id       = "${var._public_vlan_id}"

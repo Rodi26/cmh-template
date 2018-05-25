@@ -19,27 +19,21 @@ variable "ibm_sl_api_key" {
   description = "Generated"
 }
 
-variable "server-web_domain" {
-  type = "string"
-  description = "The domain for the computing instance."
-}
+
 
 variable "server-web_hostname" {
   type = "string"
   description = "The hostname for the computing instance."
 }
 
-variable "server-web_datacenter" {
-  type = "string"
-  description = "The datacenter in which you want to provision the instance. NOTE: If dedicated_host_name or dedicated_host_id is provided then the datacenter should be same as the dedicated host datacenter."
-}
+
 
 variable "server-web_os_reference_code" {
   type = "string"
   description = "Generated"
 }
 
-variable "server-db_domain" {
+variable "server-domain" {
   type = "string"
   description = "The domain for the computing instance."
 }
@@ -49,7 +43,7 @@ variable "server-db_hostname" {
   description = "The hostname for the computing instance."
 }
 
-variable "server-db_datacenter" {
+variable "server-datacenter" {
   type = "string"
   description = "The datacenter in which you want to provision the instance. NOTE: If dedicated_host_name or dedicated_host_id is provided then the datacenter should be same as the dedicated host datacenter."
 }

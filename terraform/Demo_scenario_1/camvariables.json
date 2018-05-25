@@ -45,37 +45,11 @@
       "immutable_after_create": false
     },
     {
-      "name": "server-web_domain",
-      "label": "Server Web Domain",
-      "description": "The domain for the computing instance.",
-      "type": "string",
-      "default": "webdomain",
-      "validation": "",
-      "required": true,
-      "secured": false,
-      "hidden": false,
-      "immutable": false,
-      "immutable_after_create": false
-    },
-    {
       "name": "server-web_hostname",
       "label": "Server Web Hostname",
       "description": "The hostname for the computing instance.",
       "type": "string",
       "default": "webserver",
-      "validation": "",
-      "required": true,
-      "secured": false,
-      "hidden": false,
-      "immutable": false,
-      "immutable_after_create": false
-    },
-    {
-      "name": "server-web_datacenter",
-      "label": "Server Web Datacenter",
-      "description": "The datacenter in which you want to provision the instance. NOTE: If dedicated_host_name or dedicated_host_id is provided then the datacenter should be same as the dedicated host datacenter.",
-      "type": "string",
-      "default": "fra02",
       "validation": "",
       "required": true,
       "secured": false,
@@ -97,11 +71,11 @@
       "immutable_after_create": false
     },
     {
-      "name": "server-db_domain",
-      "label": "Server Db Domain",
+      "name": "server-domain",
+      "label": "Server Domain",
       "description": "The domain for the computing instance.",
       "type": "string",
-      "default": "dom1",
+      "default": "",
       "validation": "",
       "required": true,
       "secured": false,
@@ -123,11 +97,11 @@
       "immutable_after_create": false
     },
     {
-      "name": "server-db_datacenter",
-      "label": "Server Db Datacenter",
+      "name": "server-datacenter",
+      "label": "Server Datacenter",
       "description": "The datacenter in which you want to provision the instance. NOTE: If dedicated_host_name or dedicated_host_id is provided then the datacenter should be same as the dedicated host datacenter.",
       "type": "string",
-      "default": "fra02",
+      "default": "",
       "validation": "",
       "required": true,
       "secured": false,
