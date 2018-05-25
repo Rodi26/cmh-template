@@ -53,7 +53,7 @@ variable "server-db_os_reference_code" {
   description = "Generated"
 }
 
-variable "ibm_network_private_vlan_id" {
+variable "group_name_private_id" {
   type = "string"
   description = "Generated"
 }
@@ -64,11 +64,6 @@ variable "_public_vlan_id" {
 }
 
 variable "_private_vlan_id" {
-  type = "string"
-  description = "Generated"
-}
-
-variable "group_name_private_id" {
   type = "string"
   description = "Generated"
 }
