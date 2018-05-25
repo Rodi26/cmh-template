@@ -123,8 +123,8 @@
       "immutable_after_create": false
     },
     {
-      "name": "ibm_network_private_vlan_id",
-      "label": "Ibm Network Private Vlan Id",
+      "name": "group_name_private_id",
+      "label": "Group Name Private Id",
       "description": "Generated",
       "type": "string",
       "default": "bcr02a.fra02",
@@ -154,19 +154,6 @@
       "description": "Generated",
       "type": "string",
       "default": "1370",
-      "validation": "",
-      "required": true,
-      "secured": false,
-      "hidden": false,
-      "immutable": false,
-      "immutable_after_create": false
-    },
-    {
-      "name": "group_name_private_id",
-      "label": "Group Name Private Id",
-      "description": "Generated",
-      "type": "string",
-      "default": "bcr02a.fra02",
       "validation": "",
       "required": true,
       "secured": false,
