@@ -166,7 +166,7 @@
       "label": "Group Name Private Id",
       "description": "Generated",
       "type": "string",
-      "default": "bcr02a.fra02\n",
+      "default": "bcr02a.fra02",
       "validation": "",
       "required": true,
       "secured": false,
