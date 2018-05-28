@@ -2,7 +2,20 @@
   "input_datatypes": [ ],
   "input_namespaces": [ ],
   "output_namespace": "",
-  "input_groups": [ ],
+  "input_groups": [
+    {
+      "name": "Instances",
+      "label": "Instances"
+    },
+    {
+      "name": "Instances-ibm_compute_vm_instance",
+      "label": "Instances - ibm_compute_vm_instance"
+    },
+    {
+      "name": "Other-ibm",
+      "label": "Other - ibm"
+    }
+  ],
   "output_groups": [ ],
   "template_input_params": [
     {
@@ -12,6 +25,7 @@
       "type": "string",
       "default": "efcdab0581482af4d86e6f0e032c3f775bd2993b70d57629aac999ad617dbd72",
       "validation": "",
+      "group_name": "Other-ibm",
       "required": true,
       "secured": false,
       "hidden": true,
@@ -25,6 +39,7 @@
       "type": "string",
       "default": "IBM1612849",
       "validation": "",
+      "group_name": "Other-ibm",
       "required": true,
       "secured": false,
       "hidden": false,
@@ -38,6 +53,7 @@
       "type": "string",
       "default": "efcdab0581482af4d86e6f0e032c3f775bd2993b70d57629aac999ad617dbd72",
       "validation": "",
+      "group_name": "Other-ibm",
       "required": true,
       "secured": false,
       "hidden": true,
@@ -51,6 +67,7 @@
       "type": "string",
       "default": "webserver",
       "validation": "",
+      "group_name": "Instances",
       "required": true,
       "secured": false,
       "hidden": false,
@@ -64,6 +81,7 @@
       "type": "string",
       "default": "CENTOS_6_64",
       "validation": "",
+      "group_name": "Instances",
       "required": true,
       "secured": false,
       "hidden": false,
@@ -77,6 +95,7 @@
       "type": "string",
       "default": "",
       "validation": "",
+      "group_name": "Instances-ibm_compute_vm_instance",
       "required": true,
       "secured": false,
       "hidden": false,
@@ -90,6 +109,7 @@
       "type": "string",
       "default": "dbserver",
       "validation": "",
+      "group_name": "Instances",
       "required": true,
       "secured": false,
       "hidden": false,
@@ -103,6 +123,7 @@
       "type": "string",
       "default": "",
       "validation": "",
+      "group_name": "Instances-ibm_compute_vm_instance",
       "required": true,
       "secured": false,
       "hidden": false,
@@ -116,6 +137,7 @@
       "type": "string",
       "default": "CENTOS_6_64",
       "validation": "",
+      "group_name": "Instances",
       "required": true,
       "secured": false,
       "hidden": false,
@@ -129,6 +151,7 @@
       "type": "string",
       "default": "2290423",
       "validation": "",
+      "group_name": "Instances-ibm_compute_vm_instance",
       "required": true,
       "secured": false,
       "hidden": false,
@@ -142,6 +165,7 @@
       "type": "string",
       "default": "2290425",
       "validation": "",
+      "group_name": "Instances-ibm_compute_vm_instance",
       "required": true,
       "secured": false,
       "hidden": false,
@@ -154,19 +178,21 @@
       "name": "db_server_ip_address",
       "label": "DB Server IP Address",
       "description": "DB Server IP Address",
+      "group_name": "",
       "secured": false,
       "hidden": false,
       "shortname": "",
-      "group_name": "",
       "type": "string"
     },
     {
       "name": "db_web_ip_address",
       "label": "Db Web Ip Address",
       "description": "Db Web Ip Address",
+      "group_name": "",
       "secured": false,
       "hidden": false,
-      "shortname": ""
+      "shortname": "",
+      "type": "string"
     }
   ]
 }

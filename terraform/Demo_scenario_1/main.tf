@@ -48,5 +48,7 @@ resource "tls_private_key" "ssh" {
 
 resource "ibm_compute_ssh_key" "ibm_cloud_temp_public_key" {
   label = "ibm-cloud-temp-public-key"
-  public_key = "${tls_private_key.ssh.public_key_openssh}"
+  ## public_key_e = "${tls_private_key.ssh.public_key_openssh}"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC96CaESwiS3NgQirjMB3V6hy8vJp2YTc3yJ62PzZRuctJ73mJHNbUBiJ60CY3fc1G6+rFkwMrCa2NDb4Lcpff1lOshRhL/Ev9e/YirTEjsdB305NmONlzHkIXnnyyTeD/7TZMokMtYY8b0Q8e5xZ64Pdo6DewTDSXRRex9DaeWZCMfUiJVqcaOYPNmipA9tAKLvQnFF5Cf0BaFxz066G2tODPZt/XWm2s3y7kO0E0ohLHn/Vk8vDVp/1XRimyo32l7/euSLLFSSsk4LXavZYztCScyhpZdU4K1C05L82xAI23ODAe07Plech7TRvu3J+CTpTKSNFDsuOSMgzn0Sjpt rodolphefontaine@mbp-de-rodolphe.boiscolombes.fr.ibm.com"
+  
 }
