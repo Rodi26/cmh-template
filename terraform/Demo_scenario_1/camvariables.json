@@ -179,34 +179,6 @@
       "hidden": false,
       "immutable": false,
       "immutable_after_create": false
-    },
-    {
-      "name": "vm_instance_domain",
-      "label": "Vm Instance Domain",
-      "description": "The domain for the computing instance.",
-      "type": "string",
-      "default": "",
-      "validation": "",
-      "group_name": "instances",
-      "required": true,
-      "secured": false,
-      "hidden": false,
-      "immutable": false,
-      "immutable_after_create": false
-    },
-    {
-      "name": "vm_instance_hostname",
-      "label": "Vm Instance Hostname",
-      "description": "The hostname for the computing instance.",
-      "type": "string",
-      "default": "",
-      "validation": "",
-      "group_name": "instances",
-      "required": true,
-      "secured": false,
-      "hidden": false,
-      "immutable": false,
-      "immutable_after_create": false
     }
   ],
   "template_output_params": [

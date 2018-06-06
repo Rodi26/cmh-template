@@ -63,14 +63,3 @@ variable "_private_vlan_id" {
   description = "Generated"
 }
 
-variable "vm_instance_domain" {
-  type = "string"
-  description = "The domain for the computing instance."
-}
-
-variable "vm_instance_hostname" {
-  type = "string"
-  description = "The hostname for the computing instance."
-}
-
-
