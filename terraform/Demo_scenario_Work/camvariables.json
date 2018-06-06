@@ -14,14 +14,6 @@
     {
       "name": "Other-ibm",
       "label": "Other - ibm"
-    },
-    {
-      "name": "instances",
-      "label": "Instances"
-    },
-    {
-      "name": "ibm_compute_vm_instance_networks",
-      "label": "ibm_compute_vm_instance Networks"
     }
   ],
   "output_groups": [ ],
@@ -174,34 +166,6 @@
       "default": "2290425",
       "validation": "",
       "group_name": "Instances-ibm_compute_vm_instance",
-      "required": true,
-      "secured": false,
-      "hidden": false,
-      "immutable": false,
-      "immutable_after_create": false
-    },
-    {
-      "name": "vm_instance_domain",
-      "label": "Vm Instance Domain",
-      "description": "The domain for the computing instance.",
-      "type": "string",
-      "default": "",
-      "validation": "",
-      "group_name": "instances",
-      "required": true,
-      "secured": false,
-      "hidden": false,
-      "immutable": false,
-      "immutable_after_create": false
-    },
-    {
-      "name": "vm_instance_hostname",
-      "label": "Vm Instance Hostname",
-      "description": "The hostname for the computing instance.",
-      "type": "string",
-      "default": "",
-      "validation": "",
-      "group_name": "instances",
       "required": true,
       "secured": false,
       "hidden": false,

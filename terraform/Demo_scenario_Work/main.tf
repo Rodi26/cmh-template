@@ -42,18 +42,6 @@ resource "ibm_compute_vm_instance" "server-db" {
   private_vlan_id       = "${var._private_vlan_id}"
 }
 
-resource "ibm_compute_vm_instance" "server-appli" {
-  cores       = 1
-  memory      = 1024
-  domain      = "${var.vm_instance_domain}"
-  hostname    = "${var.vm_instance_hostname}"
-  datacenter  = "${var.server-datacenter}"
-  ssh_key_ids = ["${ibm_compute_ssh_key.ibm_cloud_temp_public_key.id}"]
-  os_reference_code = "${var.server-db_os_reference_code}"
-  public_vlan_id       = "${var._public_vlan_id}"
-  private_vlan_id       = "${var._private_vlan_id}"
-}
-
 resource "tls_private_key" "ssh" {
   algorithm = "RSA"
 }

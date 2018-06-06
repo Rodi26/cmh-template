@@ -1,0 +1,12 @@
+heat_template_version: 2013-05-23
+
+description: >
+  Created 6/6/18 by ucdpadmin.
+
+resources:
+
+outputs:
+  blueprint_url:
+    description: Blueprint Origin URL
+    value:  http://158.177.113.90:30000/landscaper/view/projects?open=ucdpadmin_00000000_0000_0000_0000_000000000002-OrionContent/cmh-template-2/blueprint1.yaml.yml
+
